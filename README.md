@@ -1,4 +1,7 @@
 # Jolta
+[![Go Report Card](https://goreportcard.com/badge/github.com/zeozeozeo/jolta)](https://goreportcard.com/report/github.com/zeozeozeo/jolta)
+![License](https://img.shields.io/github/license/zeozeozeo/jolta)
+[![Documentation](https://pkg.go.dev/badge/github.com/zeozeozeo/jolta)](https://pkg.go.dev/github.com/zeozeozeo/jolta)
 
 This is an event-based networking library for Go, based on [KCP](https://github.com/xtaci/kcp-go) and [Smux](https://github.com/xtaci/smux).
 
@@ -82,3 +85,5 @@ func main() {
     // client.Connect()...
 }
 ```
+
+## See more examples in [internal/examples](https://github.com/zeozeozeo/jolta/tree/main/internal/examples)
