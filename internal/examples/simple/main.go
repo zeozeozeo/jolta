@@ -27,7 +27,7 @@ func main() {
 		fmt.Println("client connected!")
 
 		// send an event to all clients (since we only have one client,
-		// noone will recieve it)
+		// noone will receive it)
 		client.SendAll("any event name", []byte("hello from client!"))
 	})
 

@@ -299,7 +299,7 @@ func (server *Server) OnDisconnect(on func(conn *Connection)) {
 	server.onDisconnect = on
 }
 
-// OnMessage sets the function that is called when a client recieves a message.
+// OnMessage sets the function that is called when a client receives a message.
 func (server *Server) OnMessage(on func(conn *Connection, eventName string, senderId uint32, data []byte)) {
 	server.onMessage = on
 }
